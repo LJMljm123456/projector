@@ -1,0 +1,65 @@
+body
+{
+background:url(/tp5/public/static/img/bg.jpg) no-repeat center top #000;
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0px auto auto auto;
+color:#632c12;
+}
+.clear{
+clear:both;
+}
+h1{
+color:#632c12;
+font-size:36px;
+font-weight:normal;
+margin:0px;
+padding:0 0 40px 0;
+}
+#main_container{
+margin:auto;
+width:960px;
+padding:0px 0 0px 0;
+}
+
+/*--------------------contact-----------------*/
+.contact_form{
+width:465px;
+padding:280px 0 20px 430px;
+}
+.contact_row{
+width:465px;
+float:left;
+clear:both;
+padding:0 0 15px 0;
+}
+.contact_row label{
+width:120px;
+padding:2px 30px 0px 10px;
+float:left;
+text-align:right;
+font-size:24px;
+color:#632c12;
+}
+.contact_input{
+width:290px;
+height:24px;
+background:url(/tp5/public/static/img/input_border.gif) no-repeat center bottom;
+border:none;
+padding:2px 0 0 2px;
+}
+.contact_textarea{
+width:290px;
+height:110px;
+line-height:27px;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+background:url(/tp5/public/static/img/input_border_textarea.gif) no-repeat center bottom;
+border:none;
+padding:2px 0 0 2px;
+}
+input.contact_submit{
+float:right;
+padding:5px 10px 0 0;
+}
